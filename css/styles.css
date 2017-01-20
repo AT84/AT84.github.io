@@ -115,6 +115,36 @@ overflow: auto;
 margin: 0% 0% 0% 0%;
 }
 
+/* For width smaller than 400px: 
+img.row1_image1 {
+	width: 320px;
+    height: auto;
+}
+
+/* For width between 400px and 1000px:
+@media only screen and (min-width: 400px) and (max-width: 1000px) {
+img.row1_image1 {
+    width: 800px;
+    height: auto;
+    }
+}
+/* For width larger than 1000px:
+@media only screen and (min-width: 1000px) {
+img.row1_image1 {
+    width: 100%;
+    height: auto;
+    }
+}
+*/
+
+
+main img{
+/* If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size
+If the max-width property is set to 100%, the image will scale down if it has to, but never scale up to be larger than its original size   
+*/     
+    width: 100%;
+    height: auto;
+}
 
 
 footer {
